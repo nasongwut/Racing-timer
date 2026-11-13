@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- เกจความเร็ว + ปุ่มนาฬิกาจับเวลา (พื้นที่ปลอดภัย 66dp ตรงกลาง) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ปุ่มกดด้านบนของนาฬิกาจับเวลา -->
+    <path
+        android:fillColor="#FF8A96AD"
+        android:pathData="M50,24.5h8a1.5,1.5 0,0 1,1.5 1.5v1.5a1.5,1.5 0,0 1,-1.5 1.5h-8a1.5,1.5 0,0 1,-1.5 -1.5v-1.5a1.5,1.5 0,0 1,1.5 -1.5z" />
+
+    <!-- รางเกจ -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF24324D"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M38.44,71.56 A22,22 0 1,1 69.56,71.56" />
+
+    <!-- เกจไล่สี ฟ้า > เขียว > ส้ม -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M38.44,71.56 A22,22 0 1,1 73.94,46.7">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="34" android:startY="72"
+                android:endX="76" android:endY="42">
+                <item android:offset="0" android:color="#FF38D6FF" />
+                <item android:offset="0.55" android:color="#FF3DDC97" />
+                <item android:offset="1" android:color="#FFFF9F43" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- เข็ม -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFF9F43"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,56 L68.5,49.2" />
+
+    <!-- แกนกลางเข็ม -->
+    <path
+        android:fillColor="#FFF2F5FA"
+        android:pathData="M50,56a4,4 0,1 0,8 0a4,4 0,1 0,-8 0z" />
+</vector>

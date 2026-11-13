@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="14 14 80 80">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16223A"/><stop offset="1" stop-color="#05070C"/></linearGradient>
+    <linearGradient id="arc" gradientUnits="userSpaceOnUse" x1="34" y1="72" x2="76" y2="42"><stop offset="0" stop-color="#38D6FF"/><stop offset="0.55" stop-color="#3DDC97"/><stop offset="1" stop-color="#FF9F43"/></linearGradient>
+    <clipPath id="sq"><path d="M54 14C86 14 94 22 94 54S86 94 54 94 14 86 14 54 22 14 54 14z"/></clipPath>
+  </defs>
+  <g clip-path="url(#sq)">
+    <rect width="108" height="108" fill="url(#bg)"/>
+    <path d="M50 24.5h8a1.5 1.5 0 0 1 1.5 1.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-8a1.5 1.5 0 0 1-1.5-1.5v-1.5a1.5 1.5 0 0 1 1.5-1.5z" fill="#8A96AD"/>
+    <path d="M38.44 71.56A22 22 0 1 1 69.56 71.56" fill="none" stroke="#24324D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M38.44 71.56A22 22 0 1 1 73.94 46.7" fill="none" stroke="url(#arc)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M54 56L68.5 49.2" stroke="#FF9F43" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="54" cy="56" r="4" fill="#F2F5FA"/>
+  </g>
+</svg>
